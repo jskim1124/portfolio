@@ -17,10 +17,6 @@
       </nav>
     </header>
     <main>
-    <input type="text" id="project-name-input" placeholder="Project Name">
-    <input type="date" id="date-input">
-    <textarea id="description-input" placeholder="Project Description"></textarea>
-    <button id="add-project-button">Add Project</button>
       <section>
         <h2>My Projects</h2>
         <table>
@@ -49,6 +45,16 @@
             </tr>
           </tbody>
         </table>
+        <form>
+            <label for="name-input">Name:</label>
+            <input type="text" id="name-input">
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input">
+            <label for="description-input">Description:</label>
+            <input type="text" id="description-input">
+            <button id="add-project-button">Add Project</button>
+        </form>
+        <script src="script.js"></script>
       </section>
       <section>
         <h2>소개</h2>
